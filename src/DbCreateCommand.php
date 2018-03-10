@@ -48,8 +48,8 @@ class DbCreateCommand extends Command
             'port' => $input->getOption('port'),
             'username' => $input->getOption('user'),
             'password' => $input->getOption('password'),
-            'charset' => $input->getOption('host'),
-            'collation' => 'utf8_unicode_ci',
+            'charset' => $input->getOption('charset'),
+            'collation' => $input->getOption('collation'),
         ]);
 
         $capsule->bootEloquent();
