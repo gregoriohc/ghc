@@ -1,6 +1,6 @@
 {
     "name": "gregoriohc/ghc",
-    "description": "Php command line utils.",
+    "description": "PHP command line utils",
     "keywords": ["php","console","command","database"],
     "license": "MIT",
     "authors": [
@@ -17,8 +17,8 @@
     "require": {
         "ext-zip": "*",
         "symfony/console": "~3.0|~4.0",
-        "illuminate/support": "^5.0,<5.7",
-        "illuminate/database": "^5.0,<5.7"
+        "illuminate/support": "~5.1",
+        "illuminate/database": "~5.1"
     },
     "bin": [
         "ghc"
