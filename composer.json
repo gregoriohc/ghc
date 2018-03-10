@@ -1,0 +1,26 @@
+{
+    "name": "gregoriohc/ghc",
+    "description": "Php command line utils.",
+    "keywords": ["php","console","command","database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregorio Herández Caso",
+            "email": "gregoriohc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gregoriohc\\Ghc\\": "src/"
+        }
+    },
+    "require": {
+        "ext-zip": "*",
+        "symfony/console": "~3.0|~4.0",
+        "illuminate/support": "^5.0,<5.7",
+        "illuminate/database": "^5.0,<5.7"
+    },
+    "bin": [
+        "ghc"
+    ]
+}
